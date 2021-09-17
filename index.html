@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scaffold flex-start default">
+        <aside>
+            <div class="logo flex-start-center">
+                <div class="bola flex"><i class="fas fa-utensils"></i></div>
+                <h6>GOODFOOD</h6>
+            </div>
+            <ul>
+                <h2>MENU</h2>
+                <a href="index.html">
+                <li class="flex-start-center active">
+                        <div class="icon flex"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Dashboard</h3>
+                </li>
+                </a>
+                <a href="details.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-asterisk"></i></div>
+                        <h3>Details</h3>
+                    </li>
+                </a>
+                <a href="food.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-apple-alt"></i></div>
+                        <h3>Food List</h3>
+                    </li>
+                </a>
+            </ul>
+            <ul>
+                <h2>PROFILE</h2>
+                <a href="profile.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-user"></i></div>
+                        <h3>Profile</h3>
+                    </li>
+                </a>
+                <a href="notif.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-bell"></i></div>
+                        <h3>Notification</h3>
+                    </li>
+                </a>
+            </ul>
+            <ul>
+                <h2>INPUT</h2>
+                <a href="form.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-tasks"></i></div>
+                        <h3>Form</h3>
+                    </li>
+                </a>
+                <a href="message.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-comment-alt"></i></div>
+                        <h3>Message</h3>
+                    </li>
+                </a>
+            </ul>
+        </aside>
+        <div class="appbar expanded column-start">
+            <nav >
+                <ul>
+                    <li>
+                        <div class="search-box">
+                            <input class="search-input expanded" type="text" id="fname" name="fname" placeholder="Search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </li>
+                    <li><h5>Hi, Rakha Galih</h5></li>
+                    <li><a href="notif.html"><div class="bola flex"><i class="fas fa-bell"></i></div></a></li>
+                    <li><a href="profile.html"><div class="bola flex-bot"><img class="bola" src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg" alt=""></div></a></li>
+                </ul>
+            </nav>
+            <main class="expanded">
+                <h2 class="mb-3">Dashboard</h2>
+                <section class="bor-bot pb-3">
+                    <div class="mb-1 flex-start-center"><h5>Revenue</h5><div class="expanded"></div><a href="details.html"><button>View Report</button></a></div>
+                    <h2 class="mb-1">IDR 7.852.000</h2>
+                    <h6 class="txt-2 mb-3"><span class="up"><i class="mr-icon fas fa-long-arrow-alt-up"></i> 2.1%</span> vs last week</h6>
+                    <h6 class="txt-2 mb-3">Sales from 22-28 Aug, 2021</h6>
+                    <div class="box mb-3">
+                        <div class="chart flex-bot-beet" style="height: 200px;">
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 80%;"></div>
+                                <div class="bar-2" style="height: 50%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 70%;"></div>
+                                <div class="bar-2" style="height: 85%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 75%;"></div>
+                                <div class="bar-2" style="height: 30%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 40%;"></div>
+                                <div class="bar-2" style="height: 75%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 90%;"></div>
+                                <div class="bar-2" style="height: 60%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 100%;"></div>
+                                <div class="bar-2" style="height: 30%;"></div>
+                            </div>
+                            <div class="group-bar flex-bot-beet">
+                                <div class="bar" style="height: 80%;"></div>
+                                <div class="bar-2" style="height: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="flex-bot-beet day">
+                            <h6 class="flex txt-2">Mon</h6>
+                            <h6 class="flex txt-2">Tue</h6>
+                            <h6 class="flex txt-2">Wed</h6>
+                            <h6 class="flex txt-2">Thu</h6>
+                            <h6 class="flex txt-2">Fri</h6>
+                            <h6 class="flex txt-2">Sat</h6>
+                            <h6 class="flex txt-2">Sun</h6>
+                        </div>
+                    </div>
+                    <div class="flex-start-center mb-3"><div class="point mr-icon"></div><h6 class="txt-2 mr-3">This Week</h6><div class="point-2 mr-icon"></div><h6 class="txt-2">Last Week</h6></div>
+                </section>
+                <div class="flex-start">
+                    <section class="circle ">
+                        <h5 class="mb-2">Your Rating</h5>
+                        <h6 class="txt-2 mb-3">Lorem ipsum dolor sit amet consectetur.</h6>
+                        <div class="flex-start">
+                            <div class="column-start">
+                                <div class="percent mb-1" style="--radius: 50; --percent: 82; --colorC: var(--blue);">
+                                    <svg>
+                                        <circle cx="45" cy="45" r="45"></circle>
+                                        <circle cx="50" cy="50" r="50"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>82<span>%</span></h2>
+                                        <h6>Hygiene</h6>
+                                    </div>
+                                </div>
+                                <div class="percent" style="--radius: 60; --percent: 92; --colorC: var(--green5);">
+                                    <svg>
+                                        <circle cx="55" cy="55" r="55"></circle>
+                                        <circle cx="60" cy="60" r="60"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>92<span>%</span></h2>
+                                        <h6>Packaging</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="percent" style="--radius: 80; --percent: 87;">
+                                <svg>
+                                    <circle cx="75" cy="75" r="75"></circle>
+                                    <circle cx="80" cy="80" r="80"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2 class="txt-white">87<span>%</span></h2>
+                                    <h6 class="txt-white">Food Taste</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="line sec-right expanded">
+                        <div class="mb-1 flex-start-center"><h5>Order</h5><div class="expanded"></div><a href="details.html"><button>View Report</button></a></div>
+                        <h2 class="mb-1">3.485</h2>
+                        <h6 class="txt-2 mb-3"><span class="down"><i class="mr-icon fas fa-long-arrow-alt-down"></i> 1.9%</span> vs last week</h6>
+                        <h6 class="txt-2 mb-3">Sales from 22-28 Aug, 2021</h6>
+                        <div class="box mb-3">
+                            <div class="chart" style="height: 150px;">
+                                <svg viewBox="0 0 300 100" preserveAspectRatio="none">
+                                    <polyline fill="none" class="line-sec" points="0,30 50,15 100,70 150,25 200,20 250,45 300,60"></polyline>
+                                </svg>
+                                <svg viewBox="0 0 300 100" preserveAspectRatio="none">
+                                    <polyline fill="none" class="line-main" points="0,50 50,70 100,20 150,30 200,80 250,75 300,0"></polyline>
+                                </svg>
+                            </div>
+                            <div class="flex-bot-beet day">
+                                <h6 class="flex txt-2">Mon</h6>
+                                <h6 class="flex txt-2">Tue</h6>
+                                <h6 class="flex txt-2">Wed</h6>
+                                <h6 class="flex txt-2">Thu</h6>
+                                <h6 class="flex txt-2">Fri</h6>
+                                <h6 class="flex txt-2">Sat</h6>
+                                <h6 class="flex txt-2">Sun</h6>
+                            </div>
+                        </div>
+                        <div class="flex-start-center mb-3"><div class="point mr-icon"></div><h6 class="txt-2 mr-3">This Week</h6><div class="point-2 mr-icon"></div><h6 class="txt-2">Last Week</h6></div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>

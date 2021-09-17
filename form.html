@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scaffold flex-start default">
+        <aside>
+            <div class="logo flex-start-center">
+                <div class="bola flex"><i class="fas fa-utensils"></i></div>
+                <h6>GOODFOOD</h6>
+            </div>
+            <ul>
+                <h2>MENU</h2>
+                <a href="index.html">
+                <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Dashboard</h3>
+                </li>
+                </a>
+                <a href="details.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-asterisk"></i></div>
+                        <h3>Details</h3>
+                    </li>
+                </a>
+                <a href="food.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-apple-alt"></i></div>
+                        <h3>Food List</h3>
+                    </li>
+                </a>
+            </ul>
+            <ul>
+                <h2>PROFILE</h2>
+                <a href="profile.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-user"></i></div>
+                        <h3>Profile</h3>
+                    </li>
+                </a>
+                <a href="notif.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-bell"></i></div>
+                        <h3>Notification</h3>
+                    </li>
+                </a>
+            </ul>
+            <ul>
+                <h2>INPUT</h2>
+                <a href="form.html">
+                    <li class="flex-start-center active">
+                        <div class="icon flex"><i class="fas fa-tasks"></i></div>
+                        <h3>Form</h3>
+                    </li>
+                </a>
+                <a href="message.html">
+                    <li class="flex-start-center">
+                        <div class="icon flex"><i class="fas fa-comment-alt"></i></div>
+                        <h3>Message</h3>
+                    </li>
+                </a>
+            </ul>
+        </aside>
+        <div class="appbar expanded column-start">
+            <nav >
+                <ul>
+                    <li>
+                        <div class="search-box">
+                            <input class="search-input expanded" type="text" id="fname" name="fname" placeholder="Search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </li>
+                    <li><h5>Hi, Rakha Galih</h5></li>
+                    <li><a href="notif.html"><div class="bola flex"><i class="fas fa-bell"></i></div></a></li>
+                    <li><a href="profile.html"><div class="bola flex-bot"><img class="bola" src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg" alt=""></div></a></li>
+                </ul>
+            </nav>
+            <main class="expanded">
+                <h2 class="mb-3">Form Input Orders</h2>
+                <section>
+                    <form class="gr">
+                        <div class="col first">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Yessica">
+                        </div>
+                        <div class="col last">
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Tamara">
+                        </div>
+                        <div class="col revenue">
+                            <label for="lname">Revenue</label>
+                            <input type="text" id="lname" name="lname" placeholder="+ 90.000">
+                        </div>
+                        <div class="col travel">
+                            <label for="lname">Travel</label>
+                            <input type="text" id="lname" name="lname" placeholder="2km">
+                        </div>
+                        <div class="col order">
+                            <label for="lname">Order</label>
+                            <select name="order">
+                                <option value="gado-gado">Gado-Gado</option>
+                                <option value="martabak">Martabak Telor</option>
+                                <option value="maryam">Roti Maryam</option>
+                                <option value="sereal">Sereal</option>
+                                <option value="spaghetti">Spaghetti</option>
+                                <option value="lasagna">Lasagna</option>
+                                <option value="nasi">Nasi Goreng</option>
+                                <option value="salad">Salad</option>
+                              </select>
+                        </div>
+                        <h2>Rating</h2>
+                        <div class="rating flex-bot-beet">
+                            <div class="column-start expanded mr-3">
+                                <label for="lname">Food Taste</label>
+                                <input type="text" id="lname" name="lname" placeholder="100%">
+                            </div>
+                            <div class="column-start expanded mr-3">
+                                <label for="lname">Hygiene</label>
+                                <input type="text" id="lname" name="lname" placeholder="100%">
+                            </div>
+                            <div class="column-start expanded mr-3">
+                                <label for="lname">Packaging</label>
+                                <input type="text" id="lname" name="lname" placeholder="100%">
+                            </div>
+                        </div>
+                        <div class="send flex-start"><button>Send Input<span class="mr-icon"></span><i class="fas fa-paper-plane"></i></button></div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>
